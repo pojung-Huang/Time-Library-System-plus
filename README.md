@@ -82,18 +82,6 @@ Elasticsearch（支援全文搜尋）
 可輕鬆部署至本機或雲端伺服器
 
 
-## 專案結構
-```
-ispan/
-  ├── backend/         # 後端 Spring Boot 專案
-  │   ├── src/         # Java 原始碼與資源
-  │   └── zipcode_import/ # 郵遞區號匯入腳本
-  └── frontend/        # 前端 Nuxt3 + Vue3 專案
-      ├── components/  # 前端元件
-      ├── pages/       # 前端頁面
-      └── utils/       # 前端工具
-```
-
 ## 啟動方式
 
 ### 後端
