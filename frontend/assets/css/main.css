@@ -1,0 +1,185 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+h1, h2, h3, .main-title {
+  color: #003366;
+}
+.card, .section, .block, .footer, .sidebar, .nlpi-card, .news-section, .facility-section {
+  background: #f5f6f8;
+  border-radius: 12px;
+}
+a {
+  color: #1976d2;
+  text-decoration: none;
+}
+a:hover {
+  color: #0055a5;
+}
+.text-secondary {
+  color: #666;
+}
+.btn, .nlpi-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn:hover, .nlpi-btn:hover {
+  background: #0055a5;
+}
+.btn-outline, .nlpi-btn-outline {
+  background: #fff;
+  color: #1976d2;
+  border: 1.5px solid #1976d2;
+}
+.btn-outline:hover, .nlpi-btn-outline:hover {
+  background: #e3eefd;
+  color: #0055a5;
+  border-color: #0055a5;
+}
+
+/*  手機（<=600px） */
+@media (max-width: 600px) {
+  .nlpi-main {
+    padding: 1rem;
+  }
+
+  .nlpi-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .news-content-row,
+  .news-list-bottom,
+  .facility-list-large,
+  .facility-list-small {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .news-img-wrap-large,
+  .facility-img-wrap-large {
+    width: 100%;
+    height: auto;
+  }
+
+  .news-card-large,
+  .news-card-small,
+  .facility-card-large,
+  .facility-card-small {
+    width: 100%;
+  }
+
+  .service-cards-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 45%;
+    margin-bottom: 1rem;
+  }
+
+  .nlpi-logo {
+    height: 100px;
+  }
+}
+
+/*  平板（601px ~ 1024px） */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .nlpi-main {
+    padding: 1.5rem;
+  }
+
+  .nlpi-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.15rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .news-list-bottom,
+  .facility-list-large,
+  .facility-list-small {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .news-img-wrap-large,
+  .facility-img-wrap-large {
+    width: 100%;
+    height: auto;
+  }
+
+  .service-cards-row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-card {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/*  桌機（>1024px） */
+@media (min-width: 1025px) {
+  .nlpi-main {
+    padding: 2rem 1rem 3rem 1rem;
+  }
+
+  .nlpi-nav {
+    display: flex;
+    gap: 0.4rem;
+    font-size: 1.35rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .footer-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .news-list-bottom,
+  .facility-list-large,
+  .facility-list-small {
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .service-cards-row {
+    flex-wrap: nowrap;
+  }
+
+  .service-card {
+    width: 170px;
+    height: 170px;
+  }
+}
+
+
