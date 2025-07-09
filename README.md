@@ -1,5 +1,6 @@
 ﻿# Time-Library-System-plus
 <img width="946" alt="{328B5F36-E5CD-4222-A176-6D7E6D717800}" src="https://github.com/user-attachments/assets/832189ef-9d56-47bf-8a1a-4a13b896cfe9" />
+<img width="444" alt="{D14368B6-1F48-4167-8D79-73F2E6345D5D}" src="https://github.com/user-attachments/assets/f31b731d-e122-43a2-9d22-87ee7e053f28" />
 
 
 ## 專案簡介
