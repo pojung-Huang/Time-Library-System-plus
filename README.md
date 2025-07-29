@@ -92,7 +92,7 @@ Time-Library-System-plus 是一套現代化的圖書館管理系統，支援會�
 
 ### 前端
 1. 進入 `frontend` 目錄 :
-   ```cd backend```
+   ```cd frontend```
 2. 安裝依賴 :
    ```npm install```
 3. 啟動開發伺服器 :
